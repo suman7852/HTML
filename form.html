@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>
+            form
+        </title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Enquiry</legend>
+            Name : <input type = "text" name = "name" value ="" placeholder=" Enter your name here"/>
+            <br/>
+            <br/>
+            Address : <textarea name = "address"></textarea>
+            <br/>
+            <br/>
+            Gender :
+            <input type = "radio" value = "m" name = "gender"/> male
+            <input type = "radio" value = "f"  name = "gender"/> female
+            <input type = "radio" value = "o"  name = "gender"/> other
+            <br/>
+            <br/>
+            Country:
+            <select>
+                <optgroup label = "ASIA">
+                    <option> Please select your country </option>
+                    <option> India </option>
+                    <option> Shri Lanka </option>
+                    <option> Japan </option>
+                </optgroup>
+                <option> Russia </option>
+                <option> Australia </option>
+                <option> America </option>
+                <option> Ireland </option>
+            </select>
+            <br/>
+            <br/>
+            Hobbies:
+            <input type = "checkbox" name ="hobbies[]"/> Dancing
+            <input type = "checkbox" name ="hobbies[]"/> Singing
+            <input type = "checkbox" name ="hobbies[]"/> Reading
+            <br/>
+            <br/>
+            <input type = "file" name = "image"/>
+            <br/>
+            <br/>
+            <input type = "submit"/>
+            <br/>
+            <br/>
+            <input type = "reset"/>
+            </fieldset>
+        </form>
+    </body>
+</html>
